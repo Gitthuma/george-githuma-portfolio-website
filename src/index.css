@@ -73,3 +73,10 @@ h1 {
 section {
     margin-top: 8rem;
 }
+
+/*Make section to have h2 and h5 tags which are direct children of section ad style it*/
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-light);
+
+}
