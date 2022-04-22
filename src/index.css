@@ -53,7 +53,9 @@ body {
 /* ============GENERAL STYLES==================*/
 
 /*Add margin to container class*/
+/*Apply container width*/
 .container {
     margin: 0, auto;
+    width: var(--container-width-lg);
 
 }
