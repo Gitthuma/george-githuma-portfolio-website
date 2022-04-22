@@ -32,3 +32,8 @@ these are easier to use than actual values*/
 html {
     scroll-behavior: smooth;
 }
+
+/*Remove Scroll bar*/
+::-webkit-scrollbar {
+    display: none;
+}
