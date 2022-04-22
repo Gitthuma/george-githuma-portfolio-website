@@ -57,5 +57,9 @@ body {
 .container {
     margin: 0, auto;
     width: var(--container-width-lg);
+}
 
+/*Add font weight to all headings*/
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
 }
