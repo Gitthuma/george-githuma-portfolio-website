@@ -41,9 +41,19 @@ html {
 /*Add styling to body*/
 /*Add background color and text colour using variabled declared earlier*/
 /*Add line height*/
+/*Add background texture*/
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    background-image: url(../src/Assets/bg-color-moroccan-flower-dark.webp);
+}
+
+/* ============GENERAL STYLES==================*/
+
+/*Add margin to container class*/
+.container {
+    margin: 0, auto;
+
 }
