@@ -1,5 +1,5 @@
-/*Add styling to body*/
-/*Clear body styling*/
+/*Import google fonts and use them for styling body*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 /*Clear default styling applied by the web*/
 * {
@@ -36,4 +36,9 @@ html {
 /*Remove Scroll bar*/
 ::-webkit-scrollbar {
     display: none;
+}
+
+/*Add styling to body*/
+body {
+    font-family: 'Poppins', sans-serif;
 }
