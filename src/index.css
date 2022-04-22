@@ -28,3 +28,7 @@ these are easier to use than actual values*/
     --container-width-sm: 90%;
 }
 
+/*Scroll behaviour*/
+html {
+    scroll-behavior: smooth;
+}
