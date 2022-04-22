@@ -40,8 +40,10 @@ html {
 
 /*Add styling to body*/
 /*Add background color and text colour using variabled declared earlier*/
+/*Add line height*/
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
+    line-height: 1.7;
 }
