@@ -7,9 +7,10 @@ function CTA() {
   return (
     <div className='cta'>
         {/*Assign import with a download attribute to make it downloadable*/}
-        <a href={Resume} download>Download Resume</a>
+        {/*Add btn and btn primary class to make them buttons*/}
+        <a href={Resume} download className='btn'>Download Resume</a>
         {/*The href is local to the page, we will give the contact section an id of same so that when this is clicked it leads there*/}
-        <a href='#contact'>Let's Talk</a>
+        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
     </div>
   )
 }
