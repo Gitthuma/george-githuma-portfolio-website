@@ -22,6 +22,9 @@ function Header() {
           <img src={myImg} alt='George Githuma Njogu Image' />
         </div>
 
+        {/*Create scroll down link*/}
+        <a href='#contact' className='scroll__down'>Scroll Down</a>
+
 
       </div>
 
