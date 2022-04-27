@@ -86,3 +86,8 @@ section > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
+
+/*Add color light to text-light class*/
+.text-light {
+    color: var(--color-light);
+}
