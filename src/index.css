@@ -100,3 +100,8 @@ a {
     color: var(--color-primary);
     transition: var(--transition);
 }
+
+/*Add hoover effect on the a element where it changes to white*/
+a:hover {
+    color: var(--color-white);
+}
