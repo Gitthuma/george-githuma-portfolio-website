@@ -3,7 +3,7 @@ import './Header.css'
 //Import newly created CTA
 import CTA from './CTA'
 //import img from assets
-import myImg from '../../Assets/George-Githuma-IMG.jpeg'
+import myImg from '../../Assets/George-Githuma-Njogu-img.png'
 
 function Header() {
   return (
