@@ -80,3 +80,9 @@ section > h2, section > h5 {
     color: var(--color-light);
 
 }
+
+/*Change color and marging bottom to h2 inside section*/
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
