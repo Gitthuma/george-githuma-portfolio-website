@@ -124,3 +124,9 @@ a:hover {
     color: var(--color-bg);
     border-color: transparent;
 }
+
+/*Add color to button-primary class*/
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
