@@ -2,6 +2,8 @@ import React from 'react'
 import './Header.css'
 //Import newly created CTA
 import CTA from './CTA'
+//import img from assets
+import myImg from '../../Assets/George-Githuma-IMG.jpeg'
 
 function Header() {
   return (
@@ -14,6 +16,13 @@ function Header() {
 
         {/*Render CTA*/}
         <CTA />
+
+        {/*Create img div with image*/}
+        <div className='my-img'>
+          <img src={myImg} alt='George Githuma Njogu Image' />
+        </div>
+
+
       </div>
 
     </header>
