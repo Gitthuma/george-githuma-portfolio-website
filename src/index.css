@@ -117,3 +117,10 @@ a:hover {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
+
+/*Add hover effect with color styling to button class*/
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
