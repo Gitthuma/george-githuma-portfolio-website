@@ -130,3 +130,10 @@ a:hover {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+/*Add styling to image*/
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
