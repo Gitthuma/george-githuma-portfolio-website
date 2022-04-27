@@ -22,6 +22,9 @@ these are easier to use than actual values*/
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    /*Add transition variable*/
+    --transition: all 400ms ease;
+
     /*Add CSS variables for the container class*/
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -90,4 +93,10 @@ section > h2 {
 /*Add color light to text-light class*/
 .text-light {
     color: var(--color-light);
+}
+
+/*Add transition and color to a element*/
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
 }
