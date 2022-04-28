@@ -3,7 +3,8 @@ import './Contacts.css'
 
 function Contacts() {
   return (
-    <div>Contacts</div>
+    //change div to section and add id
+    <section id='contact'>Contacts</section>
   )
 }
 
