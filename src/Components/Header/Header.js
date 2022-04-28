@@ -4,6 +4,7 @@ import './Header.css'
 import CTA from './CTA'
 //import img from assets
 import myImg from '../../Assets/George-Githuma-Njogu-img.png'
+import HeaderSocials from './HeaderSocials'
 
 function Header() {
   return (
@@ -16,6 +17,9 @@ function Header() {
 
         {/*Render CTA*/}
         <CTA />
+
+        {/*Render HeaderSocials*/}
+        <HeaderSocials />
 
         {/*Create img div with image*/}
         <div className='my-img'>
