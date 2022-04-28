@@ -22,7 +22,7 @@ function Header() {
         <HeaderSocials />
 
         {/*Create img div with image*/}
-        <div className='my-img'>
+        <div className='my__img'>
           <img src={myImg} alt='George Githuma Njogu Image' />
         </div>
 
