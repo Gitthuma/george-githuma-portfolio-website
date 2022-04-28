@@ -17,17 +17,17 @@ function App() {
     //they will appear on the site
     //Wrap them in a react fragment
 
-        <>
-            <Header />
-            <Nav />
-            <About />
-            <Experience />
-            <Services />
-            <Portfolio />
-            <Testimonials />
-            <Contacts />
-            <Footer />
-        </>
+    <>
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonials />
+        <Contacts />
+        <Footer />
+    </>
 
   )
 }
