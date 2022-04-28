@@ -14,3 +14,13 @@ nav {
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
+
+/*Target links inside nav*/
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
