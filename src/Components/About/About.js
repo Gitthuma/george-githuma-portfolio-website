@@ -3,7 +3,8 @@ import './About.css'
 
 function About() {
   return (
-    <div>About</div>
+    //Change div to section and add id
+    <section id='about'>About</section>
   )
 }
 
