@@ -24,3 +24,8 @@ nav a {
     color: var(--color-light);
     font-size: 1.1rem;
 }
+
+/*Add hover behaviour*/
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
