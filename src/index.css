@@ -73,8 +73,10 @@ h1 {
 }
 
 /*Add margin-top to section*/
+/*Add height to section*/
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 /*Make section to have h2 and h5 tags which are direct children of section ad style it*/
