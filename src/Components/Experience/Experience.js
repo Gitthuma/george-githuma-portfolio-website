@@ -3,7 +3,8 @@ import './Experience.css'
 
 function Experience() {
   return (
-    <div>Experience</div>
+    //change div to section and add id
+    <section id='experience'>Experience</section>
   )
 }
 
