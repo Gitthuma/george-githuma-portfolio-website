@@ -11,3 +11,13 @@ header {
     height: 100%;
     position: relative;
 }
+
+/* ========================= CTA ======================== */
+
+/*Style cta class buttons*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
