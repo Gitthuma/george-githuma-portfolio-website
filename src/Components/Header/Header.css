@@ -4,3 +4,10 @@ header {
     padding-top: 7rem;
     overflow: hidden;
 }
+
+/*Style header__container class*/
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
