@@ -9,8 +9,8 @@ import HeaderSocials from './HeaderSocials'
 function Header() {
   return (
     <header>
-      {/*Create intro title*/}
       <div className='container header__container'>
+        {/*Create intro title*/}
         <h5>Hello I'm</h5>
         <h1>George Githuma Njogu</h1>
         <h5 className='text-light'>Software Developer</h5>
