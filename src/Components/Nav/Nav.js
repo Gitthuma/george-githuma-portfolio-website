@@ -15,6 +15,7 @@ import {useState} from 'react'
 // If activeNav is = to # then give it the ctive class if not give it nothing
 //If we are to click about, we want to move active class to about using onClick function and className function
 //We also want to reset to active class if home is clicked
+//repeat active class setting for the rest of the links
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
@@ -22,9 +23,9 @@ const Nav = () => {
       {/*Added icons to the nav component*/}
       <a href='#' onClick={() => setActiveNav('#')} className ={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
       <a href='#about' onClick={() => setActiveNav('#about')} className ={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href='#experience'><BiBook /></a>
-      <a href='#services'><RiServiceLine /></a>
-      <a href='#contact'><BiMessageSquareDetail /></a>
+      <a href='#experience' onClick={() => setActiveNav('#experience')} className ={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
+      <a href='#services' onClick={() => setActiveNav('#services')} className ={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
+      <a href='#contacts' onClick={() => setActiveNav('#contacts')} className ={activeNav === '#contacts' ? 'active' : ''}><BiMessageSquareDetail /></a>
 
     </nav>
   )
