@@ -4,7 +4,7 @@ import './Contacts.css'
 function Contacts() {
   return (
     //change div to section and add id
-    <section id='contact'>Contacts</section>
+    <section id='contacts'>Contacts</section>
   )
 }
 
