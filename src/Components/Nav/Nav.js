@@ -14,12 +14,13 @@ import {useState} from 'react'
 //This will point to a default that will bring us to the top of the page
 // If activeNav is = to # then give it the ctive class if not give it nothing
 //If we are to click about, we want to move active class to about using onClick function and className function
+//We also want to reset to active class if home is clicked
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
       {/*Added icons to the nav component*/}
-      <a href='#' className ={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href='#' onClick={() => setActiveNav('#')} className ={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
       <a href='#about' onClick={() => setActiveNav('#about')} className ={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a href='#experience'><BiBook /></a>
       <a href='#services'><RiServiceLine /></a>
