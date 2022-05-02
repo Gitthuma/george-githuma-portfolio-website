@@ -49,7 +49,9 @@ function About() {
               <small>5+ Completed</small>
             </article>
 
-            <p>
+          </div>
+
+          <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
               molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
               numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -58,11 +60,10 @@ function About() {
               nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
               tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
               quia. 
-            </p>
+          </p>
 
-            <a href='#contacts' className='btn btn-primary'>Let's Talk</a>
+          <a href='#contacts' className='btn btn-primary'>Let's Talk</a>
 
-          </div>
         </div>
 
       </div>
