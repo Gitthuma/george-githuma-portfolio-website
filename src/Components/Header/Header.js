@@ -12,9 +12,9 @@ function Header() {
     <header>
       <div className='container header__container'>
         {/*Create intro title*/}
-        <h5>Hello I'm</h5>
-        <h1>George Githuma Njogu</h1>
-        <h5 className='text-light'>Software Developer</h5>
+        <h5>Salaam, I'm</h5>
+        <h1>George Githuma</h1>
+        <h5 className='text-light'> A Software Developer</h5>
 
         {/*Render CTA*/}
         <CTA />
@@ -30,6 +30,8 @@ function Header() {
         {/*Render CTA_2*/}
         
         <CTA_2/>
+
+        
 
         {/*Create scroll down link*/}
         <a href='#contact' className='scroll__down'>Scroll Down</a>
