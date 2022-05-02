@@ -74,3 +74,56 @@
     margin: 2rem 0 2.6rem; /*top, left-right and bottom*/
     color: var(--color-light);
 }
+
+/*Add media queries for responsiveness on smaller devices*/
+
+/* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+   /*style the whole container*/
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /*Style the image inside the container*/
+    .about__me {
+        width: 50%; /*percentage of the original 100%*/
+        margin: 2rem auto 4rem; /*2rem for the top, auto for left and right and 4rem for the bottom*/   
+    }
+
+    /*Style the p tag inside content*/
+    .about__content {
+        margin: 1rem 0 1.5rem; /*top, left-right, bottom*/
+    }
+
+    
+}
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 600px) {
+   
+    /*Style image*/
+    .about__me {
+       width: 65%; /*of the original*/
+       margin: 0 auto 3rem;
+   }
+
+   /*Style cards*/
+   .about__cards {
+       grid-template-columns: 1fr;
+       gap: 1rem;
+   }
+
+   /*Align content to the center*/
+   .about__content {
+       text-align: center;
+   }
+
+   /*Style p tag inside content*/
+   .about__content p {
+       margin: 1.5rem 0; /*Top bottom, left and right*/
+   }
+    
+}
