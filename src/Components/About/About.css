@@ -4,3 +4,20 @@
     grid-template-columns: 35% 50%; /*First is left and second is right*/
     gap: 15%;
 }
+
+/*Style about__me*/
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1; /*Height will match the width*/
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+/*Style about__me-image*/
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
