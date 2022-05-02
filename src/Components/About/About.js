@@ -15,6 +15,7 @@ function About() {
     //Add about cards with articles
     //Add content headings and icons
     //Duplicate icons two times and change content
+    //Add paragraph and button after cards articles
     <section id='about'>
       <h5>Get to Know</h5>
       <h2>About Me</h2>
@@ -47,6 +48,19 @@ function About() {
               <h5>Projects</h5>
               <small>5+ Completed</small>
             </article>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+              quia. 
+            </p>
+
+            <a href='#contacts' className='btn btn-primary'>Let's Talk</a>
 
           </div>
         </div>
