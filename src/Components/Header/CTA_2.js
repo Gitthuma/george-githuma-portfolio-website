@@ -2,7 +2,8 @@ import React from 'react'
 
 function CTA_2() {
   return (
-    <div className='cta'>
+      //Change class to cta_2
+    <div className='cta_2'>
         {/*Assign import with a download attribute to make it downloadable*/}
         {/*Add btn and btn primary class to make them buttons*/}
         <a href={Resume} download className='btn'>Download Resume</a>
