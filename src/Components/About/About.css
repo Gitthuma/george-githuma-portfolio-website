@@ -42,4 +42,12 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: var(--transition);
+}
+
+/*Add hover effect on about__card*/
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
