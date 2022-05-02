@@ -58,3 +58,13 @@
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
+
+/*Style h5 and small tag inside about__card*/
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.75rem;
+    color: var(--color-light);
+}
