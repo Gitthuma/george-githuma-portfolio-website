@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import myImg from '../../Assets/George-Githuma-Njogu-img.png'
+import myImg from '../../Assets/George-Githuma-Njogu-abt-img.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
