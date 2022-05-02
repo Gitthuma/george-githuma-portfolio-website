@@ -20,4 +20,10 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+/*Add hover effect on about_me-image*/
+.about__me-image:hover {
+    transform: rotate(0);
 }
