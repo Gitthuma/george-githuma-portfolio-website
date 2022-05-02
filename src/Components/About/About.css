@@ -68,3 +68,9 @@
     font-size: 0.75rem;
     color: var(--color-light);
 }
+
+/*style paragraph*/
+.about__content p {
+    margin: 2rem 0 2.6rem; /*top, left-right and bottom*/
+    color: var(--color-light);
+}
