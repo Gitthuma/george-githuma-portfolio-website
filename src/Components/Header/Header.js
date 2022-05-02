@@ -5,6 +5,7 @@ import CTA from './CTA'
 //import img from assets
 import myImg from '../../Assets/George-Githuma-Njogu-img.png'
 import HeaderSocials from './HeaderSocials'
+import CTA_2 from './CTA_2'
 
 function Header() {
   return (
@@ -25,6 +26,10 @@ function Header() {
         <div className='my__img'>
           <img src={myImg} alt='George Githuma Njogu Image' />
         </div>
+
+        {/*Render CTA_2*/}
+        
+        <CTA_2/>
 
         {/*Create scroll down link*/}
         <a href='#contact' className='scroll__down'>Scroll Down</a>
