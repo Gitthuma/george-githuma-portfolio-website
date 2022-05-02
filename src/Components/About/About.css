@@ -1,7 +1,7 @@
 /*Style about__container*/
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%; /*First is left and second is right*/
+    grid-template-columns: 30% 50%; /*First is left and second is right*/
     gap: 15%;
 }
 
