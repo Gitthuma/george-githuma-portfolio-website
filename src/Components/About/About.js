@@ -52,14 +52,16 @@ function About() {
           </div>
 
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-              nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-              tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-              quia. 
+            I am a self taught software developer with experience in 
+            building applications that help address everyday business 
+            and organisational challanges. I am proficient in JavaScript, 
+            NodeJs, Python and React; technologies I use to build data 
+            collection tools, e-commerce websites, learning management 
+            system(LMS), portfolio websites to name a few.
+
+            I am also a certified AWS cloud pracrtitioner, and use the skill 
+            to help  businesses and organisations host and run their applications 
+            on the cloud.
           </p>
 
           <a href='https://github.com/Gitthuma' target='_blank' className='btn btn-primary'>Github Profile</a>
