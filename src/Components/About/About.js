@@ -62,7 +62,7 @@ function About() {
               quia. 
           </p>
 
-          <a href='#contacts' className='btn btn-primary'>Let's Talk</a>
+          <a href='https://github.com/Gitthuma' target='_blank' className='btn btn-primary'>Github Profile</a>
 
         </div>
 
