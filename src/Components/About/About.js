@@ -59,6 +59,9 @@ function About() {
             collection tools, e-commerce websites, learning management 
             system(LMS), portfolio websites to name a few.
 
+            <br/>
+            <br/>
+
             I am also a certified AWS cloud pracrtitioner, and use the skill 
             to help  businesses and organisations host and run their applications 
             on the cloud.
