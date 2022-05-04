@@ -73,6 +73,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem; /*top, left-right and bottom*/
     color: var(--color-light);
+    font-size: 0.95rem;
 }
 
 /*Add media queries for responsiveness on smaller devices*/
