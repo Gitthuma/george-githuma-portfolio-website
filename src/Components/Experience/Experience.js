@@ -8,7 +8,8 @@ function Experience() {
     //Add headings for experience
     //Create experience container with two divs frontend and backend
     //Add frontend heading and container for experience details
-    //Add check icon,language and experience
+    //Add check icon,language and experience to article
+    //Duplicate article and populate the duplicates with diff languages for frontend
     <section id='experience'>
       <h5>Skills I have</h5>
       <h2>My Experience</h2>
@@ -19,11 +20,31 @@ function Experience() {
           <h3>Frontend Development</h3>
           
           <div className='experience__content'>
+            
             <article className='experience_details'>
               <BsPatchCheckFill />
               <h4>HTML</h4>
               <small className='text__light'>Experienced</small>
             </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>CSS</h4>
+              <small className='text__light'>Experienced</small>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>JavaScript</h4>
+              <small className='text__light'>Experienced</small>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>React</h4>
+              <small className='text__light'>Experienced</small>
+            </article>
+
           </div>
 
         </div>
