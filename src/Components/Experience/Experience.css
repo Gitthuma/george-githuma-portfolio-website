@@ -13,3 +13,10 @@
     border: 1px solid transparent;
 
 }
+
+/*Add hover effect to cards*/
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
