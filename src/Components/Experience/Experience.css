@@ -43,3 +43,9 @@
     display: flex;
     gap: 1rem;
 }
+
+/*Style icons*/
+.experience__details-icons {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
