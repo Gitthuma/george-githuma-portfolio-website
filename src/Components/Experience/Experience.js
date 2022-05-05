@@ -83,6 +83,21 @@ function Experience() {
 
           </div> 
 
+           {/*Start of Backend*/}
+
+          <div className='experience__cloud'>
+          <h3>Cloud</h3>
+          
+          <div className='experience__content'>
+            
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>AWS</h4>
+              <small className='text__light'>Certified Cloud Practitioner </small>
+            </article>
+
+          </div> 
+
         </div>
 
       </div>
