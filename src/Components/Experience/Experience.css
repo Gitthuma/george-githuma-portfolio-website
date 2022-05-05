@@ -4,3 +4,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+
+/*Style the direct divs inside experience__container*/
+.experience__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+
+}
