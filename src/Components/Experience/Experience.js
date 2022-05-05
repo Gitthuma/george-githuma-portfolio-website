@@ -10,6 +10,7 @@ function Experience() {
     //Add frontend heading and container for experience details
     //Add check icon,language and experience to article
     //Duplicate article and populate the duplicates with diff languages for frontend
+    //Repeat process for backend
     <section id='experience'>
       <h5>Skills I have</h5>
       <h2>My Experience</h2>
@@ -49,10 +50,40 @@ function Experience() {
 
         </div>
 
+        {/*Start of Backend*/}
+
         <div className='experience__backend'>
+          <h3>Backend Development</h3>
+          
+          <div className='experience__content'>
+            
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>Node JS</h4>
+              <small className='text__light'>Intermidiet</small>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>Python</h4>
+              <small className='text__light'>Intermediate</small>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>Firebase</h4>
+              <small className='text__light'>Intermediate</small>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill />
+              <h4>MySQL</h4>
+              <small className='text__light'>Intermediate</small>
+            </article>
+
+          </div> 
 
         </div>
-
 
       </div>
     
