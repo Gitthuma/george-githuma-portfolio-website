@@ -8,10 +8,10 @@
 /*Style the direct divs inside experience__container*/
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.rem 5rem;
+    padding: 2rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-
+    transition: var(--transition);
 }
 
 /*Add hover effect to cards*/
@@ -19,4 +19,11 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+}
+
+/*Style h3 headings*/
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
 }
