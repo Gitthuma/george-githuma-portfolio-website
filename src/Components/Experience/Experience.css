@@ -49,3 +49,44 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+/*Add media queries for responsiveness on smaller devices*/
+
+/* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+    /*Make cards appear in one column*/
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    /*Width and padding of the div inside container*/
+    .experience__container > div {
+        width: 80%;
+        padding: 3rem;
+        margin: 0 auto;
+    } 
+    
+    /*Styling for the content*/
+    .experience__content {
+        padding: 1rem;
+        gap: 0;
+    }
+ }
+ 
+ /* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+ 
+ @media screen and (max-width: 600px) {
+     .experience__container {
+         gap: 1rem;
+     }
+
+     .experience__container > div {
+         width: 100%;
+         padding: 2rem 1rem;
+     } 
+     
+     .experience__content {
+         gap: 0;
+     }
+ }
