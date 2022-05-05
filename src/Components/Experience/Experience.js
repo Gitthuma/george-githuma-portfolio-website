@@ -24,26 +24,34 @@ function Experience() {
             
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className='text__light'>Experienced</small>
+              <div>
+                <h4>HTML</h4>
+                <small className='text__light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className='text__light'>Experienced</small>
+              <div>
+                <h4>CSS</h4>
+                <small className='text__light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className='text__light'>Experienced</small>
+              <div>
+                <h4>JavaScript</h4>
+                <small className='text__light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>React</h4>
-              <small className='text__light'>Experienced</small>
+              <div>
+                <h4>React</h4>
+                <small className='text__light'>Experienced</small>
+              </div>
             </article>
 
           </div>
@@ -59,26 +67,34 @@ function Experience() {
             
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>Node JS</h4>
-              <small className='text__light'>Intermidiet</small>
+              <div>
+                <h4>Node JS</h4>
+                <small className='text__light'>Intermidiet</small>
+              </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>Python</h4>
-              <small className='text__light'>Intermediate</small>
+              <div>
+                <h4>Python</h4>
+                <small className='text__light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>Firebase</h4>
-              <small className='text__light'>Intermediate</small>
+              <div>
+                <h4>Firebase</h4>
+                <small className='text__light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill />
-              <h4>MySQL</h4>
-              <small className='text__light'>Intermediate</small>
+              <div>
+                <h4>MySQL</h4>
+                <small className='text__light'>Intermediate</small>
+              </div>
             </article>
 
           </div> 
@@ -94,8 +110,18 @@ function Experience() {
               
               <article className='experience_details'>
                 <BsPatchCheckFill />
-                <h4>AWS</h4>
-                <small className='text__light'>Certified Cloud Practitioner </small>
+                <div>
+                  <h4>AWS</h4>
+                  <small className='text__light'>CCP</small>
+                </div>
+              </article>
+
+              <article className='experience_details'>
+                <BsPatchCheckFill />
+                <div>
+                  <h4>GCP</h4>
+                  <small className='text__light'>Intermediate </small>
+                </div>
               </article>
 
             </div> 
