@@ -85,10 +85,10 @@ function Experience() {
 
          </div> 
 
-           {/*Start of cloud*/}
+         {/*Start of cloud*/}
 
-          <div className='experience__cloud'>
-            <h3>Cloud</h3>
+         <div className='experience__cloud'>
+           <h3>Cloud</h3>
               
             <div className='experience__content'>
               
