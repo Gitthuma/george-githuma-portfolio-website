@@ -21,29 +21,29 @@ function Services() {
         
         <article className='service'>
           <div className="service__head">
-            <h3>Web Applications</h3>
+            <h3>Web Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>e-commerce websites</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Corporate Websites</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Learning Management Systems (LMS)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Portfoloio websites</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Contact for a quotation</p>
             </li>
           </ul>
         </article>
@@ -58,23 +58,31 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>1 Hour virtual training - $35 </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>2 Hours virtual training - $50</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Full day (6-8 Hours) virtual training - $100</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>1 Hour in-person training - $50</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>2 Hours in-person training - $75</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Full day (6-8 Hours) in-person training - $150</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Prices exclusive of transport and accomodation</p>
             </li>
           </ul>
         </article>
@@ -89,23 +97,31 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>1 Hour virtual engagement - $20 </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>2 Hours virtual engagement  - $35</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Full day (6-8 Hours) virtual engagement - $70</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>1 Hour in-person engagement - $30</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>2 Hours in-person engagement  - $50</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Full day (6-8 Hours) in-person engagement  - $100</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Prices exclusive of transport and accomodation</p>
             </li>
           </ul>
         </article>
