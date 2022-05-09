@@ -126,6 +126,30 @@ function Experience() {
 
             </div> 
 
+            <br />
+
+            <h3>Phones</h3>
+              
+            <div className='experience__content'>
+              
+              <article className='experience_details'>
+                <BsPatchCheckFill className='experience__details-icons'/>
+                <div>
+                  <h4>Android</h4>
+                  <small className='text__light'>Intermediate</small>
+                </div>
+              </article>
+
+              <article className='experience_details'>
+                <BsPatchCheckFill className='experience__details-icons'/>
+                <div>
+                  <h4>iOS</h4>
+                  <small className='text__light'>Intermediate </small>
+                </div>
+              </article>
+
+            </div> 
+
           </div>
 
       </div>

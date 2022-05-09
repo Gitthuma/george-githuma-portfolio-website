@@ -21,10 +21,13 @@ function Services() {
         
         <article className='service'>
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Software Development</h3>
           </div>
 
           <ul className='service__list'>
+            
+            <p>Web Development</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
               <p>e-commerce websites</p>
@@ -41,58 +44,45 @@ function Services() {
               <BiCheck className='service__list-icon'/>
               <p>Portfoloio websites</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Contact for a quotation</p>
-            </li>
-          </ul>
-        </article>
 
-        {/*Start of Speaking Engagements*/}
-
-        <article className='service'>
-          <div className="service__head">
-            <h3>Speaking Engagements</h3>
-          </div>
-
-          <ul className='service__list'>
-            <p>Virtual</p>
+            <br />
+            <p>Phone Application</p>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>1 Hour virtual engagement - $25 </p>
+              <p>Android App Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>2 Hours virtual engagement  - $35</p>
+              <p>IOS App Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Full day (6-8 Hours) virtual engagement - $70</p>
+              <p>React Native App</p>
             </li>
 
             <br />
-            <p>On Location</p>
+            <p>APIs and Data</p>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>1 Hour on location engagement - $35</p>
+              <p>API Developmment</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>2 Hours on location engagement  - $50</p>
+              <p>Cloud Migration</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Full day (6-8 Hours) on location engagement  - $100</p>
+              <p>Database Managementt</p>
             </li>
 
             <br />
-            <p>Disclaimer</p>
+            <p>Prices</p>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Prices exclusive of transport and accomodation</p>
+              <p>Request for quote</p>
             </li>
           </ul>
         </article>
@@ -137,7 +127,7 @@ function Services() {
             </li>
 
             <br />
-            <p>Disclaimer</p>
+            <p>Note:</p>
 
             <li>
               <BiCheck className='service__list-icon'/>
@@ -146,10 +136,57 @@ function Services() {
           </ul>
         </article>
 
-        
+        {/*Start of Speaking Engagements*/}
+
+        <article className='service'>
+          <div className="service__head">
+            <h3>Speaking Engagements</h3>
+          </div>
+
+          <ul className='service__list'>
+            <p>Virtual</p>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>1 Hour virtual engagement - $25 </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>2 Hours virtual engagement  - $35</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Full day (6-8 Hours) virtual engagement - $70</p>
+            </li>
+
+            <br />
+            <p>On Location</p>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>1 Hour on location engagement - $35</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>2 Hours on location engagement  - $50</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Full day (6-8 Hours) on location engagement  - $100</p>
+            </li>
+
+            <br />
+            <p>Note:</p>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Prices exclusive of transport and accomodation</p>
+            </li>
+          </ul>
+        </article>
+
       </div>
-      
-    
+        
     </section>
   )
 }
