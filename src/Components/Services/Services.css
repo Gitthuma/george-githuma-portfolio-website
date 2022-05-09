@@ -47,3 +47,9 @@
     gap: 1rem;
     margin-bottom: 0.8rem;
 }
+
+/*Style icon*/
+.service__list-icon {
+    color: var(--color-primary);
+    margin-top: 2px;
+}
