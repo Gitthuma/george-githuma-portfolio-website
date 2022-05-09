@@ -126,7 +126,7 @@ function Experience() {
 
             </div> 
 
-            <br />
+            {/*Phones*/}
 
             <h3>Phones</h3>
               
