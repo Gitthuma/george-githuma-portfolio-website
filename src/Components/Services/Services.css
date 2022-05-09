@@ -53,3 +53,8 @@
     color: var(--color-primary);
     margin-top: 2px;
 }
+
+/*Style p*/
+.service__list p {
+    font-size: 0.9rem;
+}
