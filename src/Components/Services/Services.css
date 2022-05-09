@@ -35,3 +35,8 @@
     font-size: 1rem;
     text-align: center;
 }
+
+/*Style service__list*/
+.service__list {
+    padding: 2rem;
+}
