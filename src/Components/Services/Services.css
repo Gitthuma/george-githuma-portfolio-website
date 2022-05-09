@@ -58,3 +58,31 @@
 .service__list p {
     font-size: 0.9rem;
 }
+
+/*Add media queries for responsiveness on smaller devices*/
+
+/* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+    /*Style service container*/
+    .service__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+    }
+    
+ }
+ 
+ /* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+ 
+ @media screen and (max-width: 600px) {
+     /*Style service__container*/
+     .service__container {
+         grid-template-columns: 1fr;
+         gap: 1.5rem;
+     }
+   
+ }
