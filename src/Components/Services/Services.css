@@ -66,8 +66,8 @@
 @media screen and (max-width: 1024px) {
     /*Style service container*/
     .service__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr;
+        padding: 2rem;
     }
 
     .service {
