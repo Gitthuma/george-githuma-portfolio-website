@@ -67,7 +67,7 @@ function About() {
             on the cloud.
           </p>
 
-          <a href='https://github.com/Gitthuma' target='_blank' className='btn btn-primary'>Github Profile</a>
+          <a href='#contacts' className='btn btn-primary'>Contacts</a>
 
         </div>
 
