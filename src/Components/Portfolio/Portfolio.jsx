@@ -16,7 +16,7 @@ function Portfolio() {
           <div className="portfolio__item-image"></div>
           <h3>Portfolio Item Title</h3>
           <a href="" className='btn'>Github</a>
-          <a href="" className='btn btn-primary'>Github</a>
+          <a href="" className='btn btn-primary'>Live Demo</a>
         </article>
 
       </div>
