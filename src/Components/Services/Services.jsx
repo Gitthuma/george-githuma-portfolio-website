@@ -56,6 +56,8 @@ function Services() {
           </div>
 
           <ul className='service__list'>
+          <p>Virtual</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
               <p>1 Hour virtual training - $35 </p>
@@ -68,18 +70,26 @@ function Services() {
               <BiCheck className='service__list-icon'/>
               <p>Full day (6-8 Hours) virtual training - $100</p>
             </li>
+
+            <br />
+            <p>On Location</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>1 Hour in-person training - $50</p>
+              <p>1 Hour on location training - $50</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>2 Hours in-person training - $75</p>
+              <p>2 Hours on location training - $75</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Full day (6-8 Hours) in-person training - $150</p>
+              <p>Full day (6-8 Hours) on location training - $150</p>
             </li>
+
+            <br />
+            <p>Disclaimer</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Prices exclusive of transport and accomodation</p>
@@ -95,9 +105,11 @@ function Services() {
           </div>
 
           <ul className='service__list'>
+            <p>Virtual</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>1 Hour virtual engagement - $20 </p>
+              <p>1 Hour virtual engagement - $25 </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -107,18 +119,26 @@ function Services() {
               <BiCheck className='service__list-icon'/>
               <p>Full day (6-8 Hours) virtual engagement - $70</p>
             </li>
+
+            <br />
+            <p>On Location</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>1 Hour in-person engagement - $30</p>
+              <p>1 Hour on location engagement - $35</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>2 Hours in-person engagement  - $50</p>
+              <p>2 Hours on location engagement  - $50</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Full day (6-8 Hours) in-person engagement  - $100</p>
+              <p>Full day (6-8 Hours) on location engagement  - $100</p>
             </li>
+
+            <br />
+            <p>Disclaimer</p>
+
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Prices exclusive of transport and accomodation</p>
