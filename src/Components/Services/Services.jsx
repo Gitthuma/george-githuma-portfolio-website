@@ -48,55 +48,6 @@ function Services() {
           </ul>
         </article>
 
-        {/*Start of Trainings*/}
-
-        <article className='service'>
-          <div className="service__head">
-            <h3>Mentorship & Trainings</h3>
-          </div>
-
-          <ul className='service__list'>
-          <p>Virtual</p>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>1 Hour virtual training - $35 </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>2 Hours virtual training - $50</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Full day (6-8 Hours) virtual training - $100</p>
-            </li>
-
-            <br />
-            <p>On Location</p>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>1 Hour on location training - $50</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>2 Hours on location training - $75</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Full day (6-8 Hours) on location training - $150</p>
-            </li>
-
-            <br />
-            <p>Disclaimer</p>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Prices exclusive of transport and accomodation</p>
-            </li>
-          </ul>
-        </article>
-
         {/*Start of Speaking Engagements*/}
 
         <article className='service'>
@@ -146,6 +97,56 @@ function Services() {
           </ul>
         </article>
 
+        {/*Start of Trainings*/}
+
+        <article className='service'>
+          <div className="service__head">
+            <h3>Mentorship & Trainings</h3>
+          </div>
+
+          <ul className='service__list'>
+          <p>Virtual</p>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>1 Hour virtual training - $35 </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>2 Hours virtual training - $50</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Full day (6-8 Hours) virtual training - $100</p>
+            </li>
+
+            <br />
+            <p>On Location</p>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>1 Hour on location training - $50</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>2 Hours on location training - $75</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Full day (6-8 Hours) on location training - $150</p>
+            </li>
+
+            <br />
+            <p>Disclaimer</p>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Prices exclusive of transport and accomodation</p>
+            </li>
+          </ul>
+        </article>
+
+        
       </div>
       
     
