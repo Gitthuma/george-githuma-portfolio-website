@@ -5,7 +5,7 @@ import CTA from './CTA'
 //import img from assets
 import myImg from '../../Assets/George-Githuma-Njogu-img.png'
 import HeaderSocials from './HeaderSocials'
-import CTA_2 from './CTA_2'
+
 
 function Header() {
   return (
