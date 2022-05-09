@@ -31,8 +31,10 @@ function Header() {
         
         <CTA_2/>
 
+        
+
         {/*Create scroll down link*/}
-        <a href='#contacts' className='scroll__down'>Scroll Down</a>
+        <a href='#contact' className='scroll__down'>Scroll Down</a>
 
 
       </div>
