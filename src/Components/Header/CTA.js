@@ -14,6 +14,9 @@ function CTA() {
         {/*Add btn and btn primary class to make them buttons*/}
         <a href={Resume} download className='btn'>Download Resume</a>
 
+        {/*Add linked in button*/}
+        <a href='https://www.linkedin.com/in/georgegithuma/' target='_blank' className='btn btn-primary'> LinkedIn Profile</a>
+
     </div>
   )
 }
