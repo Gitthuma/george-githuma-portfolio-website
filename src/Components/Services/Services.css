@@ -40,3 +40,10 @@
 .service__list {
     padding: 2rem;
 }
+
+/*Style li inside service__list*/
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
