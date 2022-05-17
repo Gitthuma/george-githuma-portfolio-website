@@ -30,6 +30,11 @@ function Services() {
 
             <li>
               <BiCheck className='service__list-icon'/>
+              <p>Portfoloio website - $99.99 a month</p>
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
               <p>e-commerce websites</p>
             </li>
             <li>
@@ -40,10 +45,7 @@ function Services() {
               <BiCheck className='service__list-icon'/>
               <p>Learning Management Systems (LMS)</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Portfoloio websites</p>
-            </li>
+           
 
             <br />
             <p>Phone Application</p>
