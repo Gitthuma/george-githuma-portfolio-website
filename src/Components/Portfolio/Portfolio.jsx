@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../Assets/portfolio-1.png'
+import IMG2 from '../../Assets/portfolio-2.png'
 
 function Portfolio() {
   return (
@@ -29,7 +30,7 @@ function Portfolio() {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="First portfolio" />
+            <img src={IMG2} alt="Second portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
           <div className='portfolio__item-cta'>
