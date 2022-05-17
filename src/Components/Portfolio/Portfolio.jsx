@@ -9,6 +9,7 @@ function Portfolio() {
     //Inside article, add image, item title and links to github and live demo
     //import image and apply it
     //Duplicate article
+    //Add a div to links with a classname of portfolio__item-cta
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
@@ -20,8 +21,10 @@ function Portfolio() {
             <img src={IMG1} alt="First portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
-          <a href="" className='btn' target='_blank'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -29,8 +32,10 @@ function Portfolio() {
             <img src={IMG1} alt="First portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
-          <a href="" className='btn' target='_blank'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -38,8 +43,10 @@ function Portfolio() {
             <img src={IMG1} alt="First portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
-          <a href="" className='btn' target='_blank'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -47,8 +54,10 @@ function Portfolio() {
             <img src={IMG1} alt="First portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
-          <a href="" className='btn' target='_blank'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -56,8 +65,10 @@ function Portfolio() {
             <img src={IMG1} alt="First portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
-          <a href="" className='btn' target='_blank'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -65,9 +76,13 @@ function Portfolio() {
             <img src={IMG1} alt="First portfolio" />
           </div>
           <h3>Portfolio Item Title</h3>
-          <a href="" className='btn' target='_blank'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className='portfolio__item-cta'>
+            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
+
+        
 
       </div>
 
