@@ -30,3 +30,11 @@
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }
+
+/*Style call to action buttons*/
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
