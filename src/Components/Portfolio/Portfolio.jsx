@@ -23,7 +23,7 @@ function Portfolio() {
           </div>
           <h3>Portfolio Item Title</h3>
           <div className='portfolio__item-cta'>
-            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/Gitthuma/george-githuma-portfolio-website" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
@@ -34,7 +34,7 @@ function Portfolio() {
           </div>
           <h3>Portfolio Item Title</h3>
           <div className='portfolio__item-cta'>
-            <a href="" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/Gitthuma/amazon-clone" className='btn' target='_blank'>Github</a>
             <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
