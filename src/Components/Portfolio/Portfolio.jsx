@@ -3,6 +3,9 @@ import './Portfolio.css'
 import IMG1 from '../../Assets/portfolio-1.png'
 import IMG2 from '../../Assets/portfolio-2.png'
 import IMG3 from '../../Assets/portfolio-3.png'
+import IMG4 from '../../Assets/portfolio-4.png'
+import IMG5 from '../../Assets/portfolio-5.png'
+import IMG6 from '../../Assets/portfolio-6.png'
 
 //Create array for mapping the different portfolios
 const data = [
@@ -64,6 +67,7 @@ function Portfolio() {
     //import image and apply it
     //Duplicate article
     //Add a div to links with a classname of portfolio__item-cta
+    //Map the array using js
     
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -71,73 +75,22 @@ function Portfolio() {
 
       <div className="container portfolio__container">
         
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="First portfolio" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/Gitthuma/george-githuma-portfolio-website" className='btn' target='_blank'>Github</a>
-            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="Second portfolio" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/Gitthuma/amazon-clone" className='btn' target='_blank'>Github</a>
-            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="Third portfolio" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item-cta'>
-            <a href="" className='btn' target='_blank'>Github</a>
-            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="First portfolio" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item-cta'>
-            <a href="" className='btn' target='_blank'>Github</a>
-            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="First portfolio" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item-cta'>
-            <a href="" className='btn' target='_blank'>Github</a>
-            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="First portfolio" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item-cta'>
-            <a href="" className='btn' target='_blank'>Github</a>
-            <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        
+       {
+         data.map(({id, image, title, github, demo}) => {
+           return (
+            <article key={id} className='portfolio__item'>
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className='portfolio__item-cta'>
+                <a href={github} className='btn' target='_blank'>Github</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+              </div>
+            </article>
+           )
+         })
+       }
 
       </div>
 
