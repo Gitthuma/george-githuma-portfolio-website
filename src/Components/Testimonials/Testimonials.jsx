@@ -20,54 +20,56 @@ function Testimonials() {
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar one" />
-            <h5 className="client__name">Randy Davo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-              accusantium laboriosam accusamus veniam assumenda omnis, est, 
-              esse ducimus corrupti modi sunt illum in.
-            </small>
           </div>
+          <h5 className="client__name">Randy Davo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
+            accusantium laboriosam accusamus veniam assumenda omnis, est, 
+            esse ducimus corrupti modi sunt illum in.
+          </small>
         </article>
 
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar one" />
-            <h5 className="client__name">Randy Davo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-              accusantium laboriosam accusamus veniam assumenda omnis, est, 
-              esse ducimus corrupti modi sunt illum in.
-            </small>
           </div>
+          <h5 className="client__name">Randy Davo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
+            accusantium laboriosam accusamus veniam assumenda omnis, est, 
+            esse ducimus corrupti modi sunt illum in.
+          </small>
         </article>
 
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar one" />
-            <h5 className="client__name">Randy Davo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-              accusantium laboriosam accusamus veniam assumenda omnis, est, 
-              esse ducimus corrupti modi sunt illum in.
-            </small>
           </div>
+          <h5 className="client__name">Randy Davo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
+            accusantium laboriosam accusamus veniam assumenda omnis, est, 
+            esse ducimus corrupti modi sunt illum in.
+          </small>
         </article>
 
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar one" />
-            <h5 className="client__name">Randy Davo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-              accusantium laboriosam accusamus veniam assumenda omnis, est, 
-              esse ducimus corrupti modi sunt illum in.
-            </small>
           </div>
+          <h5 className="client__name">Randy Davo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
+            accusantium laboriosam accusamus veniam assumenda omnis, est, 
+            esse ducimus corrupti modi sunt illum in.
+          </small>
         </article>
+
+        
 
       </div>
 
