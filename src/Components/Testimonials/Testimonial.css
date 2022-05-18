@@ -12,3 +12,12 @@
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
 }
+
+/*Style testimonial*/
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
