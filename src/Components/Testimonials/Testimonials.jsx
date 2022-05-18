@@ -5,7 +5,37 @@ import AVTR2 from '../../Assets/Avatar-2.jpeg'
 import AVTR3 from '../../Assets/Avatar-3.jpeg'
 import AVTR4 from '../../Assets/Avatar-4.jpeg'
 
-function Testimonials() {
+//Add array of testimonial onbjects to generate testimony dynamicaly
+const data = [
+  {
+    avatar: AVTR1,
+    name: 'Randy Davo',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+  },
+
+  {
+    avatar: AVTR2,
+    name: 'Chenai Chair',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+  },
+
+  {
+    avatar: AVTR3,
+    name: 'Twahir Hussein',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+  },
+
+  {
+    avatar: AVTR4,
+    name: 'Nermina Ljevakovic',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+  }
+
+]
+
+//Apply array
+
+const Testimonials = () => {
   //Add headings
   //Create div for testimonial container with article inside
   //Add Image, client name and review
@@ -17,57 +47,19 @@ function Testimonials() {
 
       <div className="container testimonials__container">
         
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar one" />
-          </div>
-          <h5 className="client__name">Randy Davo</h5>
-          <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-            accusantium laboriosam accusamus veniam assumenda omnis, est, 
-            esse ducimus corrupti modi sunt illum in.
-          </small>
-        </article>
-
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar one" />
-          </div>
-          <h5 className="client__name">Randy Davo</h5>
-          <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-            accusantium laboriosam accusamus veniam assumenda omnis, est, 
-            esse ducimus corrupti modi sunt illum in.
-          </small>
-        </article>
-
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar one" />
-          </div>
-          <h5 className="client__name">Randy Davo</h5>
-          <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-            accusantium laboriosam accusamus veniam assumenda omnis, est, 
-            esse ducimus corrupti modi sunt illum in.
-          </small>
-        </article>
-
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar one" />
-          </div>
-          <h5 className="client__name">Randy Davo</h5>
-          <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Adipisci soluta odio debitis sequi dignissimos dicta nesciunt 
-            accusantium laboriosam accusamus veniam assumenda omnis, est, 
-            esse ducimus corrupti modi sunt illum in.
-          </small>
-        </article>
+        {
+          data.map(({avatar, name, review}, index) => {
+            return (
+              <article key={index} className="testimonial">
+                <div className="client__avatar">
+                  <img src={avatar} />
+                </div>
+                <h5 className="client__name">{name}</h5>
+                <small className="client__review">{review}</small>
+              </article>
+            )
+          })
+        }
 
         
 
