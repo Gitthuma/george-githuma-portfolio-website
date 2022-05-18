@@ -2,3 +2,10 @@
 .testimonials__container {
     width: 40%;
 }
+
+/*Style client__avatar*/
+.client__avatar {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
