@@ -60,13 +60,13 @@ const Testimonials = () => {
         {
           data.map(({avatar, name, review}, index) => {
             return (
-              <article key={index} className="testimonial">
+              <SwiperSlide key={index} className="testimonial">
                 <div className="client__avatar">
                   <img src={avatar} />
                 </div>
                 <h5 className="client__name">{name}</h5>
                 <small className="client__review">{review}</small>
-              </article>
+              </SwiperSlide>
             )
           })
         }
