@@ -55,7 +55,7 @@ const Testimonials = () => {
       <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container">
+      <Swiper className="container testimonials__container">
         
         {
           data.map(({avatar, name, review}, index) => {
@@ -73,7 +73,7 @@ const Testimonials = () => {
 
         
 
-      </div>
+      </Swiper>
 
     </section>
   )
