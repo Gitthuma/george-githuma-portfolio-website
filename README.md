@@ -12,4 +12,4 @@ What:
 
 Demo sites to show off my ReactJs skills.
 
-NB: Still work in progress! Please don't publish.
+NB: Still work in progress! Please don't publish!
