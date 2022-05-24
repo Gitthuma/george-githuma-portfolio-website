@@ -52,19 +52,23 @@ function About() {
           </div>
 
           <p>
-            I am a self taught software developer with experience in 
-            building applications that help address everyday business 
-            and organisational challanges. I am proficient in JavaScript, 
-            NodeJs, Python and React; technologies I use to build data 
-            collection tools, e-commerce websites, learning management 
-            system(LMS), portfolio websites to name a few.
 
-            <br/>
-            <br/>
+            I am a self taught software developer with proficiency in web 
+            technologies including HTML, CSS, JavaScript, NodeJs, Python and 
+            React. I enjoy designing and building products and systems that 
+            help businesses and organizations easily interact with their customers, 
+            collect data efficiently and for e-commerce platforms make seamless 
+            payments.
 
-            I am also a certified AWS cloud pracrtitioner, and use the skill 
-            to help  businesses and organisations host and run their applications 
-            on the cloud.
+            <br />
+
+            More than web technologies, I am an AWS Certified Cloud Practitioner with 
+            knowledge of hosting and migrating applications to the cloud.
+
+            <br />
+            I have also recently developed an interest in native applications and I am 
+            currently working on my kotlin android skills.
+
           </p>
 
           <a href='#contacts' className='btn btn-primary'>Contacts</a>
