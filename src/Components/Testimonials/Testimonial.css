@@ -31,6 +31,12 @@
     margin: 0.8rem auto 0;
 }
 
+/*Add background color to .swiper-pagination-clickable .swiper-pagination-bullets*/
+.swiper-pagination-clickable .swiper-pagination-bullets {
+    background: var(--color-primary);
+
+}
+
 /*Add media queries for responsiveness on smaller devices*/
 
 /* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
