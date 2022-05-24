@@ -61,11 +61,14 @@ function About() {
             payments.
 
             <br />
+            <br />
 
             More than web technologies, I am an AWS Certified Cloud Practitioner with 
             knowledge of hosting and migrating applications to the cloud.
 
             <br />
+            <br />
+            
             I have also recently developed an interest in native applications and I am 
             currently working on my kotlin android skills.
 
