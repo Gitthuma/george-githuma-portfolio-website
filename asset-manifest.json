@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/george-githuma-portfolio-website/static/css/main.a1428da9.css",
-    "main.js": "/george-githuma-portfolio-website/static/js/main.b90db425.js",
+    "main.js": "/george-githuma-portfolio-website/static/js/main.5b0b5083.js",
     "static/media/portfolio-1.png": "/george-githuma-portfolio-website/static/media/portfolio-1.99be91796d2c8ee4f757.png",
     "static/media/George-Githuma-Njogu-abt-img.png": "/george-githuma-portfolio-website/static/media/George-Githuma-Njogu-abt-img.c39e9de9a79fad88905e.png",
     "static/media/portfolio-4.png": "/george-githuma-portfolio-website/static/media/portfolio-4.f7cbf6958b2c179ac777.png",
@@ -18,10 +18,10 @@
     "static/media/Avatar-4.jpeg": "/george-githuma-portfolio-website/static/media/Avatar-4.3ddb7d4b87e45fb6dfca.jpeg",
     "index.html": "/george-githuma-portfolio-website/index.html",
     "main.a1428da9.css.map": "/george-githuma-portfolio-website/static/css/main.a1428da9.css.map",
-    "main.b90db425.js.map": "/george-githuma-portfolio-website/static/js/main.b90db425.js.map"
+    "main.5b0b5083.js.map": "/george-githuma-portfolio-website/static/js/main.5b0b5083.js.map"
   },
   "entrypoints": [
     "static/css/main.a1428da9.css",
-    "static/js/main.b90db425.js"
+    "static/js/main.5b0b5083.js"
   ]
 }
