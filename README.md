@@ -12,4 +12,6 @@ What:
 
 Demo sites to show off my ReactJs skills.
 
+Demo: https://gitthuma.github.io/george-githuma-portfolio-website/
+
 NB: Still work in progress! Please don't publish!
