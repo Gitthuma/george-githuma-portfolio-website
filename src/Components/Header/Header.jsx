@@ -13,7 +13,7 @@ function Header() {
       <div className='container header__container'>
         {/*Create intro title*/}
         <h5>Salaam, I'm</h5>
-        <h1>George Githuma</h1>
+        <h1>George Githuma Njogu</h1>
         <h5 className='text-light'> A Software Developer</h5>
 
         {/*Render CTA*/}
