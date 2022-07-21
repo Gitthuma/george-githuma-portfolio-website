@@ -21,14 +21,15 @@ function Contacts() {
             <MdOutlineMail/>
             <h4>Email</h4>
             <h5>george.githuma@gmail.com</h5>
-            <a href="mailto:george.githuma@gmail.com">Send an email</a>
+            <a href="mailto:george.githuma@gmail.com" target="_blank">Send an Email</a>
           </article>
 
           <article className='contact__option'>
             <BsWhatsapp/>
             <h4>WhatsApp</h4>
             <h5>+254 721 308700</h5>
-            <a href="https://api.whatsapp.com/send?phone=+254721308700">Send Whatsapp Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+254721308700" target="_blank">Send a Whatsapp Message</a>
+            <h5>Note: You should have WhatsApp downloaded on your phone or computer</h5>
           </article>
 
         </div>
