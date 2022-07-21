@@ -12,9 +12,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'George Githuma Portfolio Website',
+    title: 'Personal Portfolio Site',
     github: 'https://github.com/Gitthuma/george-githuma-portfolio-website',
-    demo: ''
+    demo: 'https://gitthuma.github.io/george-githuma-portfolio-website/'
   },
 
   {
