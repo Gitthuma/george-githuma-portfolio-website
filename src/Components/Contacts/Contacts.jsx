@@ -14,6 +14,8 @@ function Contacts() {
       <h2>Contacts</h2>
 
       <div className="container contacts__container">
+
+        {/*Contact Option*/}
         
         <div className="contacts__options">
           
@@ -33,6 +35,16 @@ function Contacts() {
           </article>
 
         </div>
+
+        {/*Form*/}
+
+        <form action="">
+          <input type="text" name='name' placeholder='Your Full Name' required />
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" rows="10" placeholder='Your Message' required ></textarea>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+        </form>
+
 
       </div>
 
