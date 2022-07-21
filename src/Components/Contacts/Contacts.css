@@ -22,3 +22,9 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+
+/*Add hover effect*/
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
