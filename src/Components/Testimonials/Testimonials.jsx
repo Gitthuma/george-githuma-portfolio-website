@@ -20,25 +20,25 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Randy Davo',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+    review: 'Thank you for your time once again George. I really enjoyed our meeting. And thanks for all you shared with me. I can confidently say I learned a lot during the mentorship session. I will start implementing all that we have discussed as I look forward to our next session.'
   },
 
   {
     avatar: AVTR2,
     name: 'Chenai Chair',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+    review: 'Thank you so much for our call last week noting the efforts of your work on Kiswahili Common Voice platform. It truly is fantastic to see how much time and effort you have put into this work. I look forward to continue working together in the coming days and seeing what we can achieve together.'
   },
 
   {
     avatar: AVTR3,
     name: 'Twahir Hussein',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+    review: 'Thank you for the mentorship session with our students. They were really excited to see you code live, interacting with both the terminal and the IDE. This will go a long way in motivating them to work hard on their coding skills so that one day they can be like you.'
   },
 
   {
     avatar: AVTR4,
     name: 'Nermina Ljevakovic',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta odio debitis sequi dignissimos dicta nesciunt accusantium laboriosam accusamus veniam assumenda omnis, est, esse ducimus corrupti modi sunt illum in.'
+    review: 'Thanks for the discussions today George Githuma Njogu. Valuable perspectives shared. I look forward to working with you to mentor our current cohort on their projects. They are currently on their development stage of their applications and would appreciate your feedback on the applications they are developing.'
   }
 
 ]
