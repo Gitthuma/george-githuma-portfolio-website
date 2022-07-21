@@ -9,7 +9,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Personal Portfolio Site',
+    title: 'Personal Portfolio Website',
     github: 'https://github.com/Gitthuma/george-githuma-portfolio-website',
     demo: 'https://gitthuma.github.io/george-githuma-portfolio-website/'
   },
@@ -17,9 +17,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Amazone Clone',
-    github: 'https://github.com/Gitthuma/amazon-clone',
-    demo: ''
+    title: 'Organization Portfolio Website',
+    github: 'https://github.com/Gitthuma/cup-of-uji-kenya-website',
+    demo: 'https://www.cupofujikenya.org/'
   } 
 ]
 
