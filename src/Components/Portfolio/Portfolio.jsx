@@ -2,10 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../Assets/portfolio-1.png'
 import IMG2 from '../../Assets/portfolio-2.png'
-import IMG3 from '../../Assets/portfolio-3.png'
-import IMG4 from '../../Assets/portfolio-4.png'
-import IMG5 from '../../Assets/portfolio-5.png'
-import IMG6 from '../../Assets/portfolio-6.png'
+
 
 //Create array for mapping the different portfolios
 const data = [
@@ -23,40 +20,7 @@ const data = [
     title: 'Amazone Clone',
     github: 'https://github.com/Gitthuma/amazon-clone',
     demo: ''
-  },
-
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Title 3',
-    github: 'https://github.com',
-    demo: ''
-  },
-
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Title 4',
-    github: 'https://github.com',
-    demo: ''
-  },
-
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Title 5',
-    github: 'https://github.com',
-    demo: ''
-  },
-
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Title 6',
-    github: 'https://github.com',
-    demo: ''
-  }
-  
+  } 
 ]
 
 function Portfolio() {
