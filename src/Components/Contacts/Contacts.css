@@ -28,3 +28,16 @@
     background: transparent;
     border-color: var(--color-primary-variant);
 }
+
+/*Style contact__option-icon*/
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Style contact__option anchor tags*/
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.7rem;
+}
