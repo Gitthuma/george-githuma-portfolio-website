@@ -20,18 +20,17 @@ function Contacts() {
         <div className="contacts__options">
           
           <article className='contact__option'>
-            <MdOutlineMail/>
+            <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>george.githuma@gmail.com</h5>
             <a href="mailto:george.githuma@gmail.com" target="_blank">Send an Email</a>
           </article>
 
           <article className='contact__option'>
-            <BsWhatsapp/>
+            <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+254 721 308700</h5>
             <a href="https://wa.me/254721308700" target="_blank">Send a Whatsapp Message</a>
-            <h5>Note: You should have WhatsApp downloaded on your phone or computer</h5>
           </article>
 
         </div>
