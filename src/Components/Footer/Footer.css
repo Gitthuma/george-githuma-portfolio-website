@@ -60,6 +60,11 @@ footer a {
     color: var(--color-bg);
 }
 
+.scroll__up {
+    position: absolute;
+    right: 3rem;
+}
+
 /*Add media queries for responsiveness*/
 
 /* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
