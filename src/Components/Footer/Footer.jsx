@@ -15,7 +15,7 @@ function Footer() {
 
     <footer>
       
-      <a href="#" className='footer_logo'>george githima</a>
+      <a href="#" className='footer_logo'>georgegithuma.com</a>
 
       <ul className='permalinks'>
         <li><a href="#"></a>Home</li>
