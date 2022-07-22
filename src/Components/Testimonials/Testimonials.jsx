@@ -20,25 +20,29 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Randy Davo',
+    title: 'FullStack Developer',
     review: 'Thank you for your time once again George. I really enjoyed our meeting. And thanks for all you shared with me. I can confidently say I learned a lot during the mentorship session. I will start implementing all that we have discussed as I look forward to our next session.'
   },
 
   {
     avatar: AVTR2,
     name: 'Chenai Chair',
+    title: 'Senior Program Officer - Africa Innovation, Mozilla',
     review: 'Thank you so much for our call last week noting the efforts of your work on Kiswahili Common Voice platform. It truly is fantastic to see how much time and effort you have put into this work. I look forward to continue working together in the coming days and seeing what we can achieve together.'
   },
 
   {
     avatar: AVTR3,
     name: 'Twahir Hussein',
-    review: 'Thank you for the mentorship session with our students. They were really excited to see you code live, interacting with both the terminal and the IDE. This will go a long way in motivating them to work hard on their coding skills so that one day they can be like you.'
+    title: 'Founder, Lamuka Hub',
+    review: 'Thank you for the mentorship session with our students. They were really excited to see you code live, interacting with both the terminal and the IDE. This will go a long way in motivating them to work hard on their coding skills. Lets have more sessions like this in the future.'
   },
 
   {
     avatar: AVTR4,
     name: 'Nermina Ljevakovic',
-    review: 'Thanks for the discussions today George Githuma Njogu. Valuable perspectives shared. I look forward to working with you to mentor our current cohort on their projects. They are currently on their development stage of their applications and would appreciate your feedback on the applications they are developing.'
+    title: 'Chief Investment Officer, TechBridge Invest',
+    review: 'Thanks for the discussions today George Githuma Njogu. Valuable perspectives shared. Welcome, the TechBridge Invest community of startups and partners will greatly benefit from your knowledge and experience. We are very excited to have you on board.'
   }
 
 ]
@@ -63,13 +67,14 @@ const Testimonials = () => {
       pagination={{ clickable: true }}>
         
         {
-          data.map(({avatar, name, review}, index) => {
+          data.map(({avatar, name, title, review}, index) => {
             return (
               <SwiperSlide key={index} className="testimonial">
                 <div className="client__avatar">
                   <img src={avatar} />
                 </div>
                 <h5 className="client__name">{name}</h5>
+                <h6 className="client__title">{title}</h6>
                 <small className="client__review">{review}</small>
               </SwiperSlide>
             )

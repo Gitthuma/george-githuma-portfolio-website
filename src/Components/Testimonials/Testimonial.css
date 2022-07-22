@@ -23,6 +23,10 @@
     user-select: none;
 }
 
+.client__title {
+    color: var(--color-light);
+}
+
 /*Style client__review*/
 .client__review {
     color: var(--color-light);
@@ -35,7 +39,6 @@
 /*Add background color to .swiper-pagination-clickable .swiper-pagination-bullets*/
 .swiper-pagination-clickable .swiper-pagination-bullets {
     background: var(--color-primary);
-
 }
 
 /*Add media queries for responsiveness on smaller devices*/
@@ -44,7 +47,11 @@
 
 @media screen and (max-width: 1024px) {
     .testimonials__container {
-        width: 60%;
+        width: 60%;   
+    }
+
+    .testimonial {
+        padding: 4rem;  
     }
  }
  
@@ -58,5 +65,10 @@
      .client__review {
          width: var(--container-width-sm);
      }
+
+     .testimonial {
+        padding: 1.7rem;  
+    }
+
      
  }
