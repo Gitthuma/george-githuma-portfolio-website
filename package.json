@@ -1,7 +1,7 @@
 {
   "name": "george-githuma-portfolio-website",
+  "homepage": "https://georgegithuma.com",
   "version": "0.1.0",
-  "homepage": "https://Gitthuma.github.io/george-githuma-portfolio-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
