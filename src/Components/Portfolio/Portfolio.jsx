@@ -11,7 +11,7 @@ const data = [
     image: IMG1,
     title: 'Personal Portfolio Website',
     github: 'https://github.com/Gitthuma/george-githuma-portfolio-website',
-    demo: 'https://gitthuma.github.io/george-githuma-portfolio-website/'
+    demo: 'georgegithuma.com'
   },
 
   {
