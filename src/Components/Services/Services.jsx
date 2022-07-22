@@ -30,7 +30,12 @@ function Services() {
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Portfoloio website - $99.99 a month</p>
+              <p> Personal portfolio website - $99.99/Year</p>
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p> Organization portfolio website - $499.99/Year</p>
             </li>
 
             <li>
