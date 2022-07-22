@@ -1,12 +1,17 @@
 import React from 'react'
 import './Footer.css'
 
+//import icons
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
+
 function Footer() {
   return (
     
     //link to logo
     //create permalinks
     //Add socials
+    //Add copyright
 
     <footer>
       
@@ -23,7 +28,12 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        
+        <a href="https://www.linkedin.com/in/georgegithuma/"><BsLinkedin/></a>
+        <a href="https://www.linkedin.com/in/georgegithuma/"><FaGithub/></a>
+      </div>
+
+      <div className="footer__copyright">
+        <small>&copy; All rights reserved by the owner, georgegithuma.com </small>
       </div>
 
 
