@@ -36,6 +36,9 @@ function Footer() {
         <small>&copy; All rights reserved by the owner, georgegithuma.com </small>
       </div>
 
+       {/*Create scroll up link*/}
+       <a href='#' className='scroll__up'>Scroll Up</a>
+
 
     </footer>
   )
